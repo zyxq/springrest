@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        maven { url "http://maven.oschina.net/content/groups/public/" }
+	jcenter()
     }
 
     dependencies {
@@ -24,7 +24,7 @@ compileJava {
 }
 
 repositories {
-    maven { url "http://maven.oschina.net/content/groups/public/" }
+    jcenter()
     maven { url "https://repo.eclipse.org/content/repositories/paho-releases/" }
 }
 
