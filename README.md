@@ -1,0 +1,1 @@
+http://localhost:8080/test/oauth/token?client_id=mobile-client&client_secret=mobile&grant_type=password&scope=read%20write&username=mobile&password=mobile
